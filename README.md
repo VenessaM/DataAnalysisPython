@@ -13,3 +13,4 @@ Other Resources
 - [How to avoid overploting with Python](https://python-graph-gallery.com/134-how-to-avoid-overplotting-with-python/)
 
 Other Projects
+- [Spanish High Speed Rail Tickets Pricing Analytics](https://www.kaggle.com/mjella45/spanish-high-speed-rail-tickets-pricing)
