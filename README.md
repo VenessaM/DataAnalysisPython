@@ -5,8 +5,8 @@ The project is created to store projects developed in learning Data Analysis in 
 Created by Yuhong on 20-May-2019
 
 List of Proejcets:
-- [Project 1: Explore Weather Trends](Project1_WeatherTrends.ipynb)
-- [Project 2: Investigate a dataset: Investigating European Soccer Database](investigate_a_dataset.ipynb)[(Revised Version)](Investigate_a_Dataset_v2.ipynb)
+- [Project 1: Explore Weather Trends](project1_weathertrends.ipynb)
+- [Project 2: Investigate a dataset: Investigating European Soccer Database](investigate_a_dataset_v2.ipynb)[(Draft Version)](investigate_a_dataset.ipynb)
 
 
 Other Resources:
