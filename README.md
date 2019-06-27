@@ -9,8 +9,9 @@ List of Proejcets:
 - [Project 2: Investigate a dataset: Investigating European Soccer Database](investigate_a_dataset.ipynb)[(Revised Version)](Investigate_a_Dataset_v2.ipynb)
 
 
-Other Resources
+Other Resources:
 - [How to avoid overploting with Python](https://python-graph-gallery.com/134-how-to-avoid-overplotting-with-python/)
 
-Other Projects
+Other Projects(Kaggle)
 - [Spanish High Speed Rail Tickets Pricing Analytics](https://www.kaggle.com/venessam/investigate-spanish-railway-tickets)
+- [Bitcoin Price and Market Sentiment(https://www.kaggle.com/venessam/bitcoin-price-and-sentiment)
