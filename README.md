@@ -14,4 +14,4 @@ Other Resources:
 
 Other Projects(Kaggle)
 - [Spanish High Speed Rail Tickets Pricing Analytics](https://www.kaggle.com/venessam/investigate-spanish-railway-tickets)
-- [Bitcoin Price and Market Sentiment(https://www.kaggle.com/venessam/bitcoin-price-and-sentiment)
+- [Bitcoin Price and Market Sentiment](https://www.kaggle.com/venessam/bitcoin-price-and-sentiment)
