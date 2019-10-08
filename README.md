@@ -25,56 +25,57 @@ After completing the project, you will:
 
 ### Part 2: Practical Statistics
 
-#### Descriptive Statistics Part 1 and Part 2
+#### 2.1 Descriptive Statistics Part 1 and Part 2
 Learn about data types, measures of center, and the basics of statistical notation
 Learn about measures of spread, shape, and outliers as associated with quantitative data.
 
-#### Admission Case Study
+#### 2.2 Admission Case Study
 Learn to ask the right quesiton, as you learn about Simpson's Paradox.
 
-#### Probability
+#### 2.3 Probability
 Learn the basics of probability
 
-#### Binomial Distribution
+#### 2.4 Binomial Distribution
 Learn the most popular distributions in probalility
 
-#### Conditional Probability
+#### 2.5 Conditional Probability
 Learn the probability rules for dependent events
 
-#### Bayes Rule
+#### 2.6 Bayes Rule
 Learn Bayes Rule
 
-#### Python Probability Practice
+#### 2.7 Python Probability Practice
 Simulated dataset on cancer test results for patients and whether they really have cancer. 
 - Project:[Cancer Test Results]()
 
-#### Normal Distribution Theory
+#### 2.8 Normal Distribution Theory
 Learn the mathematics behind moving from a coin flip to a normal distribution
 
-#### Sampling Distribution and the Central Limit Theorem
+#### 2.9 Sampling Distribution and the Central Limit Theorem
 Learn about the underpinning of confidence intervals and hypothesis testing
 - Project: [Bootstrapping]()
 
-#### Confidence Intervals
+#### 2.10 Confidence Intervals
 Learn how to use sampling distributions and bootstrapping to create a confidence interval for any parameter of interest
 
-#### Hypothesis Testing and A/B Tests
+#### 2.11 Hypothesis Testing and A/B Tests
 Learn the skills to create and analyze the results in hypothesis testing
 
-#### Regression
+#### 2.12 Regression
 Learn how to use python to fit linear regression models, as well as understand how to interpret the results of linear models.
 
-#### Multiple Linear Regression
+#### 2.13 Multiple Linear Regression
 Learn how to apply multiple linear regression modesl.
 
-#### Logistic Regression
+#### 2.14 Logistic Regression
 Learn how to apply logistic regression models in python.
 
 ##### Project - Analyze A/B Test Results
 A/B tests are very commonly performed by data analysts and data scientists. It is important that you get some practice working with the difficulties of these.
 
 For this project, you will be working to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page in order to try and increase the number of users who "convert," meaning the number of users who decide to pay for the company's product. Your goal is to work through this notebook to help the company understand if they should implement this new page, keep the old page, or perhaps run the experiment longer to make their decision.
-- Project:[Analyze A/B Test Results]()
+
+- Project: [Analyze A/B Test Results for an e-commerce website to decide whether a new page should be implemented](https://github.com/VenessaM/DataAnalysisPython/tree/master/AnalyzeABTestResults)
 
 ### Part 3: [Wrangle and Analyze Data]()
 Real-world data rarely comes clean. Gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it.
@@ -85,9 +86,9 @@ Showcase your wrangling efforts through analyses and visualizations.
 
 
 
-Other Resources:
+### Other Resources:
 - [How to avoid overploting with Python](https://python-graph-gallery.com/134-how-to-avoid-overplotting-with-python/)
 
-Other Projects(Kaggle)
+### Other Projects(Kaggle)
 - [Spanish High Speed Rail Tickets Pricing Analytics](https://www.kaggle.com/venessam/investigate-spanish-railway-tickets)
 - [Bitcoin Price and Market Sentiment](https://www.kaggle.com/venessam/bitcoin-price-and-sentiment)
