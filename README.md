@@ -30,7 +30,7 @@ Learn how to apply inferential statistics and probability to real-world scenario
 
 Analyze the results of an A/B test run by an e-commerce website to decide whether the company should implement new page, keep the old page, or perhaps run the experiment longer to increase user conversion rate. 
 
-- Project: [Analyze A/B Test Results](https://github.com/VenessaM/DataAnalysisPython/tree/master/AnalyzeABTestResults)
+[Analyze A/B Test Results](https://github.com/VenessaM/DataAnalysisPython/tree/master/AnalyzeABTestResults)
 
 #### Selected topics of Practical Statistics
 - 2.1 Descriptive Statistics Part 1 and Part 2
