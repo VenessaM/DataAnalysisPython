@@ -13305,7 +13305,7 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="1.User-Profiling">1.User Profiling<a class="anchor-link" href="#1.User-Profiling">&#182;</a></h2><p>This section aims to answer the question:Who are the customers?</p>
+<h2 id="1.User-Profiling">1.User Profiling<a class="anchor-link" href="#1.User-Profiling">&#182;</a></h2><p>This section aims to answer the question: Who are the customers?</p>
 <p>The study explored three user characteristics, including</p>
 <ul>
 <li>Age </li>
@@ -13320,7 +13320,7 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="1.1-Age-Distribution-of-Users">1.1 Age Distribution of Users<a class="anchor-link" href="#1.1-Age-Distribution-of-Users">&#182;</a></h3><p>Oberservation:</p>
-<blockquote><p>Majority users are from 20-40 age group.</p>
+<blockquote><p>Majority users are from 20-40 age group, who are more willingly to use bike sharing for travel.</p>
 </blockquote>
 
 </div>
@@ -13336,7 +13336,7 @@ $(document).ready(function(){
 <span class="n">sns</span><span class="o">.</span><span class="n">countplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;member_age_bins&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;member_age_bins&#39;</span><span class="p">),</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;navy&#39;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;User Age Group Distribution&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">1.03</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;age group&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">);</span>
 </pre></div>
 
     </div>
@@ -13348,19 +13348,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[5]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(array([0, 1, 2, 3, 4]), &lt;a list of 5 Text xticklabel objects&gt;)</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13385,7 +13372,7 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="1.2-Count-of-Bike-Rides-by-Gender">1.2 Count of Bike Rides by Gender<a class="anchor-link" href="#1.2-Count-of-Bike-Rides-by-Gender">&#182;</a></h3><p>Observation:</p>
-<blockquote><p>Rides made by male users are more than triple that of female users</p>
+<blockquote><p>Number of rides made by male users tripled that of female users. The difference might caused by the population in Bay Area.</p>
 </blockquote>
 
 </div>
@@ -13401,7 +13388,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Count of bike rides by gender&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">22</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">1.015</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;gender&#39;</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;count(n) [rides]&#39;</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">);</span>
 </pre></div>
 
     </div>
@@ -13413,19 +13400,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[6]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(array([0, 1, 2]), &lt;a list of 3 Text xticklabel objects&gt;)</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13450,7 +13424,8 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="1.3-Count-of-Bike-Rides-by-User-Type">1.3 Count of Bike Rides by User Type<a class="anchor-link" href="#1.3-Count-of-Bike-Rides-by-User-Type">&#182;</a></h3><p>Observation:</p>
-<blockquote><p>Rides made by subscribers are more than double that of customers</p>
+<blockquote><p>Count of rides made by subscribers tripled that of customers</p>
+<p>The difference might be caused by different pricing and user behaviour. According to Lyft <a href="https://www.lyft.com/bikes/bay-wheels/pricing">website</a>, Subscribers need be charged by monthly or annually. User from subscribers group are frequent bike riders and are more willingly to travel by bike.</p>
 </blockquote>
 
 </div>
@@ -13467,7 +13442,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Count of bike rides by user type&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">22</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">1.015</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;user type&#39;</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;count(n) [rides]&#39;</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">);</span>
 </pre></div>
 
     </div>
@@ -13479,19 +13454,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(array([0, 1]), &lt;a list of 2 Text xticklabel objects&gt;)</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13516,7 +13478,12 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="2.-Ride-Statistics">2. Ride Statistics<a class="anchor-link" href="#2.-Ride-Statistics">&#182;</a></h2><p>Ride statistics, including</p>
+<h2 id="2.-Ride-Statistics">2. Ride Statistics<a class="anchor-link" href="#2.-Ride-Statistics">&#182;</a></h2><p>This section aims to answer below quesitons</p>
+<ul>
+<li>When are most trips taken in terms of time of day or day of the week?</li>
+<li>How long does the average trip take?</li>
+</ul>
+<p>Ride statistics, including</p>
 <ul>
 <li>Percentage of Bike Rides by Weekday </li>
 <li>Count of Rides by Each Day in Aug</li>
@@ -13531,6 +13498,7 @@ $(document).ready(function(){
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="2.1-Percentage-of-Bike-Rides-by-Weekday">2.1 Percentage of Bike Rides by Weekday<a class="anchor-link" href="#2.1-Percentage-of-Bike-Rides-by-Weekday">&#182;</a></h3><p>Observation:</p>
 <blockquote><p>There is a clear trend that rides made on weekdays almost double that of weekends</p>
+<p>The pattern might be due to different use scenarios. Users ride bikes on weekdays to commute between workplace and home, while on weekends, users ride for leisure purpose</p>
 </blockquote>
 
 </div>
@@ -13552,7 +13520,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Percentage of Bike Rides by Weekday&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">22</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">1.015</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;weekday&#39;</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;percentage(%) [rides]&#39;</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">16</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">);</span>
 </pre></div>
 
     </div>
@@ -13564,19 +13532,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[11]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>(array([0, 1, 2, 3, 4, 5, 6]), &lt;a list of 7 Text xticklabel objects&gt;)</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13601,7 +13556,8 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="2.2-Count-of-Rides-by-Each-Day-in-Aug">2.2 Count of Rides by Each Day in Aug<a class="anchor-link" href="#2.2-Count-of-Rides-by-Each-Day-in-Aug">&#182;</a></h3><p>Observation:</p>
-<blockquote><p>The trend is clear that users ride more during weekdays than weekends</p>
+<blockquote><p>The pattern is clear that users ride more during weekdays than weekends</p>
+<p>The pattern is consistent with obeservation in 2.1</p>
 </blockquote>
 
 </div>
@@ -13622,7 +13578,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;day of Aug&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;counts(n)of rides&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -13634,19 +13590,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[13]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x12d64c50&gt;</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13670,9 +13613,10 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2.3-Count-of-Rides-by-Start-Time-Hour">2.3 Count of Rides by Start Time Hour<a class="anchor-link" href="#2.3-Count-of-Rides-by-Start-Time-Hour">&#182;</a></h3><p>Observation:</p>
+<h3 id="2.3-Count-of-Rides-by-Start-Time-Hour">2.3 Count of Rides by Start Time Hour<a class="anchor-link" href="#2.3-Count-of-Rides-by-Start-Time-Hour">&#182;</a></h3><p>Observations:</p>
 <blockquote><p>Weekdays: morning peak hours start from 7am to 9am, afternoon peak hours start from 5pm to 6pm.</p>
 <p>Weekends: there is no obvious peak hours, users ride primarily from 9am to 8pm.</p>
+<p>User might ride bike on weekends for leisure purpose, while on weekdays, they ride bike to commute between work place and home</p>
 </blockquote>
 
 </div>
@@ -13694,7 +13638,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;start hour of day&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;counts(n)of rides&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -13706,19 +13650,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[15]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x134f4ba8&gt;</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13756,7 +13687,9 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="3.1-Average-Duration-of-Rides-by-User-Type">3.1 Average Duration of Rides by User Type<a class="anchor-link" href="#3.1-Average-Duration-of-Rides-by-User-Type">&#182;</a></h3><p>Observation:</p>
-<blockquote><p>Users from Customer group generaly ride longer time duration than Subscriber group, irrespective of gender.</p>
+<blockquote><p>Users from Customer group generaly ride longer time duration than Subscriber group, irrespective of gender. The difference might be caused by different pricing as mentioned in 1.3.</p>
+<p>Average time duration for users from customer group is below 1600 seconds, which is around 27 minutes. Acoording to pricing policy, customer need to pay 2 dollar for one ride up to 30 minutes, if the ride lasts longer than 30 minutes, it's an extra 3 dollar per additional 15 minutes. A trip within 30 minutes is most beneficial for customers</p>
+<p>Female users ride slightly longer time duration than male users.</p>
 </blockquote>
 
 </div>
@@ -13777,7 +13710,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;user type&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;average duration(seconds)of rides&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -13789,19 +13722,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[17]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x13248ac8&gt;</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13827,6 +13747,7 @@ $(document).ready(function(){
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="3.2-Average-Trip-Distance-by-User-Type">3.2 Average Trip Distance by User Type<a class="anchor-link" href="#3.2-Average-Trip-Distance-by-User-Type">&#182;</a></h3><p>Observation:</p>
 <blockquote><p>Users from customer group ride slightly longer distance than subscriber group.</p>
+<p>Although female users ride longer time duration than male users, the difference of average ride distance is insignifiant.</p>
 </blockquote>
 
 </div>
@@ -13847,7 +13768,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;user type&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;average trip distance(km)of rides&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -13859,19 +13780,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[21]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x136e9898&gt;</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13896,7 +13804,8 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="3.3-Peak-Hours-by-User-Type">3.3 Peak Hours by User Type<a class="anchor-link" href="#3.3-Peak-Hours-by-User-Type">&#182;</a></h3><p>Observation:</p>
-<blockquote><p>There is no significant difference between customer group and subscriber group, regardless of weekdays or weekends</p>
+<blockquote><p>Though subscriber group ride more often than customer group, both group exhibit same travel peak hours on weekdays and weekends</p>
+<p>Subscriber group ride much more often than customer group on weekdays, while the difference is much smaller on weekends</p>
 </blockquote>
 
 </div>
@@ -13916,7 +13825,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;start hour of day&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;counts(n)of rides&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -13928,19 +13837,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[22]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x214d5630&gt;</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -13975,7 +13871,7 @@ $(document).ready(function(){
 <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;start hour of day&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;counts(n)of rides&quot;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">14</span><span class="p">,</span> <span class="n">labelpad</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span><span class="o">=</span><span class="mi">360</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">,</span> <span class="n">bbox_to_anchor</span><span class="o">=</span><span class="p">(</span><span class="mf">1.2</span><span class="p">,</span> <span class="mi">1</span><span class="p">));</span>
 </pre></div>
 
     </div>
@@ -13987,19 +13883,6 @@ $(document).ready(function(){
 <div class="output_wrapper">
 <div class="output">
 
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[23]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.legend.Legend at 0x21770da0&gt;</pre>
-</div>
-
-</div>
 
 <div class="output_area">
 
@@ -14023,16 +13906,16 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.-Hourly-Usage-Differences-on-Weekdays-between-Customer-Group-and-Subscriber-Group">4. Hourly Usage Differences on Weekdays between Customer Group and Subscriber Group<a class="anchor-link" href="#4.-Hourly-Usage-Differences-on-Weekdays-between-Customer-Group-and-Subscriber-Group">&#182;</a></h2><p>Observation:</p>
-<blockquote><p><strong>Customers use the bike sharing system more often on weekends:</strong></p>
+<h2 id="4.-Hourly-Usage-Differences-on-Weekdays-between-Customer-Group-and-Subscriber-Group">4. Hourly Usage Differences on Weekdays between Customer Group and Subscriber Group<a class="anchor-link" href="#4.-Hourly-Usage-Differences-on-Weekdays-between-Customer-Group-and-Subscriber-Group">&#182;</a></h2><p>Observations:</p>
+<blockquote><p><strong>Users from Customers group use bike sharing system more often on weekends:</strong></p>
 <ul>
-<li>weekdays: most bike rides hapen around 8-9am and 5-6pm with the peak on Fridays around 5pm</li>
-<li>weekends: most bike rides happen between 10am - 8pm with the peak on Saturdays around 2pm</li>
+<li>Weekdays: most bike rides hapen around 8-9am and 5-6pm with the peak on Fridays around 5pm</li>
+<li>Weekends: most bike rides happen between 10am - 8pm with the peak on Saturdays around 2pm</li>
 </ul>
-<p><strong>Subscribers use the bike sharing system mainly on weekdays:</strong></p>
+<p><strong>Users from subscribers group use bike sharing system mainly on weekdays:</strong></p>
 <ul>
-<li>weekdays: most bike rides hapen around 8-9am and 5-6pm with the peak on Tuesdays around 8am</li>
-<li>weekends: bikes are still rented but there is a significant drop in numbers of rented bikes throughout the entire weekends</li>
+<li>Weekdays: most bike rides hapen around 8-9am and 5-6pm with the peak on Tuesdays around 8am</li>
+<li>Weekends: bikes are still rented but there is a significant drop in numbers of rented bikes throughout the entire weekends</li>
 </ul>
 </blockquote>
 
@@ -14102,6 +13985,16 @@ $(document).ready(function(){
 </div>
 </div>
 
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Thoughts for Discussion：</strong></p>
+<p>The behaviour difference could be further related to different <a href="https://www.lyft.com/bikes/bay-wheels/pricing">pricing policies</a>. The subscriber membership plan is more attractive to frequent riders, who pay fixed membership fee by monthly or annually to enjoy unlimited trips. Subscribers are more willingly to use sharing bike to commute to work.</p>
+<p>Customers pay by each ride and ride bikes more often on weekends for leisure purpose.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input_hidden">
