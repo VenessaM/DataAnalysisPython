@@ -1,91 +1,78 @@
 # Data Analyst Nanodegree
 
-### Mu Yuhong
+### Mu Yuhong Created on 20-May-2019
 
-The repository contains projects for Udacity's [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002).
+The repository contains projects for Udacity's [Data Analyst Nanodegree](https://www.udacity.com/course/data-analyst-nanodegree--nd002). 
 
-Created by Yuhong on 20-May-2019
-### Part 1: Investigate a Dataset
-##### Introduction
-This project is connected with the Introduction to [Data Analysis course](https://classroom.udacity.com/courses/ud170),
-In this project, you will wrangle, clean, analyze a dataset and then communicate your findings about it. You will use the Python libraries NumPy, pandas, and Matplotlib to make your analysis.
-After completing the project, you will:
-- Know all the steps involved in a typical data analysis process
-- Be comfortable posing questions that can be answered with a given dataset and then answering those questions
-- Know how to investigate problems in a dataset and wrangle the data into a format you can use
-- Have experience communicating the results of your analysis
-- Be able to use vectorized operations in NumPy and pandas to speed up your data analysis code
-- Be familiar with pandas' Series and DataFrame objects, which let you access your data more conveniently
-- Know how to use Matplotlib to produce plots showing your findings
+I took this online course at the end of my MBA journey to advance analytics skills in Python and SQL. This course focuses on Data Wrangling, Data Visualization, A/B Hypothesis Testing, and Regression analysis.
 
-##### Project
-- [Project 1: Explore Weather Trends](project1_weathertrends.ipynb)
-- [Project 2: Investigate a dataset: Investigating European Soccer Database](investigate_a_dataset_v2.ipynb)[(Draft Version)](investigate_a_dataset.ipynb)
+### Part 1: Investigate a Dataset -Introduction to Data Analysis
+Learn the data analysis process of wrangling, exploring, analyzing, and communicating data. Work with data in Python, using libraries like NumPy and Pandas.
+
+##### Project - Explore Weather Trends
+
+In this project, you'll get familiar with SQL, and learn how to download data from a database. You’ll analyze local and global temperature data and compare the temperature trends where you live to overall global temperature trends.
+
+[Explore Weather Trends](project1_weathertrends.ipynb)
+
+##### Project - Investigate a Dataset
+
+You will choose one of Udacity's curated datasets and investigate it using NumPy and Pandas. Go through the entire data analysis process, starting by posing a question and finishing by sharing your findings.
+
+[Investigate a dataset: Investigating European Soccer Database](investigate_a_dataset_v2.ipynb)[(Draft Version)](investigate_a_dataset.ipynb)
 
 
 ### Part 2: Practical Statistics
 
-#### 2.1 Descriptive Statistics Part 1 and Part 2
-Learn about data types, measures of center, and the basics of statistical notation
-Learn about measures of spread, shape, and outliers as associated with quantitative data.
-
-#### 2.2 Admission Case Study
-Learn to ask the right quesiton, as you learn about Simpson's Paradox.
-
-#### 2.3 Probability
-Learn the basics of probability
-
-#### 2.4 Binomial Distribution
-Learn the most popular distributions in probalility
-
-#### 2.5 Conditional Probability
-Learn the probability rules for dependent events
-
-#### 2.6 Bayes Rule
-Learn Bayes Rule
-
-#### 2.7 Python Probability Practice
-Simulated dataset on cancer test results for patients and whether they really have cancer. 
-- Project:[Cancer Test Results]()
-
-#### 2.8 Normal Distribution Theory
-Learn the mathematics behind moving from a coin flip to a normal distribution
-
-#### 2.9 Sampling Distribution and the Central Limit Theorem
-Learn about the underpinning of confidence intervals and hypothesis testing
-- Project: [Bootstrapping]()
-
-#### 2.10 Confidence Intervals
-Learn how to use sampling distributions and bootstrapping to create a confidence interval for any parameter of interest
-
-#### 2.11 Hypothesis Testing and A/B Tests
-Learn the skills to create and analyze the results in hypothesis testing
-
-#### 2.12 Regression
-Learn how to use python to fit linear regression models, as well as understand how to interpret the results of linear models.
-
-#### 2.13 Multiple Linear Regression
-Learn how to apply multiple linear regression modesl.
-
-#### 2.14 Logistic Regression
-Learn how to apply logistic regression models in python.
+Learn how to apply inferential statistics and probability to real-world scenarios, such as analyzing A/B tests and building supervised learning models.
 
 ##### Project - Analyze A/B Test Results
-A/B tests are very commonly performed by data analysts and data scientists. It is important that you get some practice working with the difficulties of these.
 
-For this project, you will be working to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page in order to try and increase the number of users who "convert," meaning the number of users who decide to pay for the company's product. Your goal is to work through this notebook to help the company understand if they should implement this new page, keep the old page, or perhaps run the experiment longer to make their decision.
+Analyze the results of an A/B test run by an e-commerce website to decide whether the company should implement new page, keep the old page, or perhaps run the experiment longer to increase user conversion rate. 
 
-- Project: [Analyze A/B Test Results for an e-commerce website to decide whether a new page should be implemented](https://github.com/VenessaM/DataAnalysisPython/tree/master/AnalyzeABTestResults)
+- Project: [Analyze A/B Test Results](https://github.com/VenessaM/DataAnalysisPython/tree/master/AnalyzeABTestResults)
 
-### Part 3: [Wrangle and Analyze Data]()
-Real-world data rarely comes clean. Gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it.
-Showcase your wrangling efforts through analyses and visualizations.
+#### Selected topics of Practical Statistics
+- 2.1 Descriptive Statistics Part 1 and Part 2
+- 2.2 Admission Case Study- Learn to ask the right quesiton, as you learn about Simpson's Paradox.
+- 2.3 Probability
+- 2.4 Binomial Distribution
+- 2.5 Conditional Probability
+- 2.6 Bayes Rule
+- 2.7 Python Probability Practice
+- 2.8 Normal Distribution Theory
+- 2.9 Sampling Distribution and the Central Limit Theorem
+- 2.10 Confidence Intervals
+- 2.11 Hypothesis Testing and A/B Tests
+- 2.12 Regression
+- 2.13 Multiple Linear Regression
+- 2.14 Logistic Regression
+
+### Part 3: Wrangle and Analyze Data
+
+Learn the data wrangling process of gathering, assessing, and cleaning data. Learn to use Python to wrangle data programmatically and prepare it for analysis.
+
+##### Project - Wrangle and Analyze Data
+
+Real-world data rarely comes clean. Using Python, you'll gather data from a variety of sources, assess its quality and tidiness, then clean it. You'll document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python and SQL.
+
+[Wrangle and Analyze Data](https://github.com/VenessaM/DataAnalysisPython/tree/master/wrangle_and_analyze_data)
+
+### Part 4: Data Visualization
+
+Learn to apply visualization principles to the data analysis process. Explore data visually at multiple levels to find insights and create a compelling story.
+
+##### Project - Communicate Data Findings
+
+You will use Python’s data visualization tools to systematically explore a selected dataset for its properties and relationships between variables. Then, you will create a presentation that communicates your findings to others.
+
+[Communicate Data Findings](https://github.com/VenessaM/DataAnalysisPython/tree/master/data_visualization_communicate_findings)
+
+---
+![Cert](https://github.com/VenessaM/DataAnalysisPython/blob/master/cert/nanodegree_cert.jpg "Cert")
 
 
-### Part 4: [Data Visualization]()
-
-
-
+---
 ### Other Resources:
 - [How to avoid overploting with Python](https://python-graph-gallery.com/134-how-to-avoid-overplotting-with-python/)
 
