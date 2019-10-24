@@ -52,6 +52,7 @@ My presentation is focus on different travelling patterns bewteen
 **Customers use the bike sharing system more often on weekends:**
 - weekdays: most bike rides hapen around 8-9am and 5-6pm with the peak on Fridays around 5pm
 - weekends: most bike rides happen between 10am - 8pm with the peak on Saturdays around 2pm
+
 **Subscribers use the bike sharing system mainly on weekdays:**
 - weekdays: most bike rides hapen around 8-9am and 5-6pm with the peak on Tuesdays around 8am
 - weekends: bikes are still rented but there is a significant drop in numbers of rented bikes throughout the entire weekends
